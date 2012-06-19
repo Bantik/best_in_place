@@ -101,6 +101,7 @@ module BestInPlace
       data.to_s.
         gsub("&", "&amp;").
         gsub("'", "&apos;").
+        gsub('"', "&quot;").
         gsub("\n", "&#10;")
     end
 
